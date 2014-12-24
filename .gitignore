@@ -1,0 +1,31 @@
+# Ignore Vagrant
+/.vagrant
+
+# Ignore Drupal
+/httpdocs/*
+!/httpdocs/sites
+/httpdocs/profiles/*
+/httpdocs/sites/README.txt
+/httpdocs/sites/*example*
+/httpdocs/sites/all/modules/*
+/httpdocs/sites/all/modules/README.txt
+/httpdocs/sites/all/libraries/*
+/httpdocs/sites/default/*
+!/httpdocs/.gitignore
+
+# Unignore drush make files
+!/httpdocs/project.sh
+!/httpdocs/project.make
+!/httpdocs/drupal-org.make
+!/httpdocs/drupal-org-core.make
+
+# Unignore settings files
+!/httpdocs/sites/default/config.class.php
+!/httpdocs/sites/default/settings.php
+
+# Unignore modules and themes that are specific to this project
+!/httpdocs/sites/all/modules/custom
+!/httpdocs/sites/all/modules/features
+!/httpdocs/sites/all/themes
+!/httpdocs/profiles/
+!/httpdocs/profiles/project/
