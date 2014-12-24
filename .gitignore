@@ -12,6 +12,7 @@
 /httpdocs/sites/all/libraries/*
 /httpdocs/sites/default/*
 !/httpdocs/.gitignore
+!/httpdocs/info.php
 
 # Unignore drush make files
 !/httpdocs/project.sh
