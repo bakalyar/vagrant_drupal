@@ -5,3 +5,4 @@ Includes:
 - MySQL
 - PHP
 - Drush
+- Solr
