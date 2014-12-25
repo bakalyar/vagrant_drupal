@@ -1,0 +1,48 @@
+name = Project
+description = Default installation profile.
+version = 7.x-1.0
+core = 7.x
+exclusive = TRUE
+
+; Core
+dependencies[] = block
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = options
+dependencies[] = path
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = number
+dependencies[] = contextual
+dependencies[] = update
+dependencies[] = search
+dependencies[] = taxonomy
+dependencies[] = statistics
+
+; Turn off on production!
+dependencies[] = dblog
+
+; Contrib
+dependencies[] = devel
+dependencies[] = admin_menu_toolbar
+dependencies[] = module_filter
+dependencies[] = backup_migrate
+dependencies[] = node_export
+dependencies[] = menu_import
+dependencies[] = entity
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = pathauto
+dependencies[] = placeholder
+dependencies[] = jquery_update
+dependencies[] = ckeditor
+dependencies[] = imce
+
+; Custom
+dependencies[] = custom_helper
+dependencies[] = custom_front_page
+dependencies[] = custom_update
+
+; Features
+dependencies[] = features_ckeditor

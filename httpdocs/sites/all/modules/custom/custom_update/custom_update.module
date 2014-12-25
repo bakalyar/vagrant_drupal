@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implement hook_permission();
+ */
+function custom_update_permission() {
+  return array(
+    'run project updates' => array(
+      'title' => t('Run Project Updates'),
+    ),
+  );
+}

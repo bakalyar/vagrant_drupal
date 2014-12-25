@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Implements hook_menu
+ */
+function rein_front_page_menu() {
+  $items['front'] = array(
+    'page callback' => 'rein_front_page_callback',
+    'access callback' => TRUE,
+    'type' => MENU_CALLBACK,
+  );
+  return $items;
+}
+
+function rein_front_page_callback() {
+  return '';
+}

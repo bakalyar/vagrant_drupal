@@ -1,0 +1,10 @@
+/*
+ * Fixes Drupal default clearfix.
+ */
+
+.clearfix:after {
+    content: "";
+}
+*:focus {
+	outline: 0;
+}

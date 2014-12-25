@@ -1,0 +1,12 @@
+<?php
+/**
+ * Implements hook_install();
+ */
+function rein_update_install() {
+}
+
+/**
+ * Describe update
+ */
+//function rein_update_update_7300(&$sandbox) {
+//}

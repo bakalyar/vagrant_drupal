@@ -1,0 +1,19 @@
+<?php
+
+function custom_helper_debug($var) {
+  print '<pre>';
+  print_r($var); exit;
+}
+
+function custom_helper_menu() {
+  $items['demo'] = array(
+    'page callback' => 'custom_helper_demo',
+    'access callback' => TRUE,
+    'type' => MENU_CALLBACK,
+  );
+
+  return $items;
+}
+
+function custom_helper_demo() {
+}

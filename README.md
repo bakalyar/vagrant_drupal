@@ -13,4 +13,4 @@ Installation:
   - Install vagrant plugin "vagrant-winnfsd" > vagrant plugin install vagrant-winnfsd
   - Clone repo to your folder
   - Run "vagrant up"
-  - Check: http://127.0.0.1/info.php
+  - Check: http://127.0.0.1/index.php

@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Implements hook_install();
+ */
+function custom_front_page_install() {
+  variable_set('site_frontpage', 'front');
+}
