@@ -18,3 +18,4 @@ apt-get install -y mc
 service apache2 restart
 
 ln -s /var/www/html drupal
+rm -f /var/www/html/index.html
