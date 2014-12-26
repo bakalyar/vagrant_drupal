@@ -2,7 +2,7 @@ name = Project
 description = Default installation profile.
 version = 7.x-1.0
 core = 7.x
-exclusive = TRUE
+;git exclusive = TRUE
 
 ; Core
 dependencies[] = block
@@ -30,7 +30,6 @@ dependencies[] = module_filter
 dependencies[] = backup_migrate
 dependencies[] = node_export
 dependencies[] = menu_import
-dependencies[] = entity
 dependencies[] = features
 dependencies[] = strongarm
 dependencies[] = pathauto
